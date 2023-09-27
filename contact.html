@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Contact</title>
+</head>
+
+<body>
+<header><img src="Jarditou promo/Assets/img.jpg/jarditou_logo.jpg" width="350" height="100" alt="jarditou_logo"></header>
+
+    <p>La qualité depuis 70 ans</p>
+
+    <nav>
+        <ol>
+            <li><a href="index.html" title="Accueil">Accueil</a></li>
+            <li><a href="tableau.html" title="tableau">Tableau</a></li>
+            <li><a href="contact.html" title="Contact">Contact</a></li>
+        </ol>
+
+        <img src="Jarditou promo/Assets/img.jpg/promotion.jpg" alt="Jarditoupromotion">
+    </nav>
+        <p>* Ces zones sont obligatoires</p>
+        <form action="http://bienvu.net/script.php" method="get" enctype="multipart/form-data">
+            <fieldset>
+                <legend>Vos coordonnées</legend>
+                <label for="nom">Votre nom* :</label><input type="text" name="nom" id="nom" pattern="^[A-z]+$" required title="Entrez votre nom (que des caractères entre a et z)"><br>
+                <label for="prenom">Votre prénom* :</label><input type="text" name="prenom" id="prenom" pattern="^[A-z]+$" required title="Entrez votre prénom"><br>
+                <br>
+                <label for="sexe">Sexe* :</label><input type="radio" name="sexe" value="Féminin" id="sexe">Féminin
+                <input type="radio" name="sexe" value="Masculin">Masculin<br>
+                <br>
+                <label for="Datedenaissance">Date de naissance* :</label><input type="date" name="ddn" id="Datedenaissance"><br>
+                <label for="Codepostal">Code postal* :</label><input type="number" name="Codepostal" id="Codepostal" required title="Entrez votre code postal"><br>
+                <label for="Adresse">Adresse :</label><input type="text" name="adresse" id="Adresse"><br>
+                <label for="ville">Ville :</label><input type="text" name="Ville" id="ville"><br>
+                <label for="email">Email* :</label><input type="email" name="email" id="email" placeholder="exemple@mail.com" pattern="^[a-z]+$" required title="exemple@mail.com"><br>
+            </fieldset>
+        
+            <fieldset>
+                <legend>Votre demande</legend>
+                <label for="sujet">Sujet*</label>
+                <select id="sujet" size="1" required title="Veuillez séléctionner un sujet.">
+                    <option value="">Veuillez séléctionner un sujet</option>
+                    <option value="Mescommandes">Mes commandes</option>
+                    <option value="Questionsurunproduit">Question sur un produit</option>
+                    <option value="Reclamation">Réclamation</option>
+                    <option value="Autres">Autres</option>
+                </select>
+                <br>
+                <label for="Votredemande">Votre demande* :</label><textarea name="Votredemande" id="Votredemande" cols="20" rows="2"></textarea>
+            </fieldset>
+        
+            <br>
+            <label for="checkbox"></label><input type="checkbox" name="checkbox" required title="Veuillez accepter le traitement informatique" id="checkbox">* J'accepte le traitement informatique de ce formulaire
+            <br>
+            <br>
+            <input type="submit" value="Envoyer">
+            <input type="reset" value="Annuler">
+            <hr>
+
+        </form>
+            
+        <footer>
+            <ul>
+                <li><a href="" title="Mentionlégales">Mention légales</a></li>
+                <li><a href="" title="Horaires">Horaires</a></li>
+                <li><a href="" title="Plandusite">Plan du site</a></li>
+            </ul>
+        </footer>
+
+
+
+</body>
+
+
+</html>
