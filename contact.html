@@ -1,10 +1,11 @@
+
 <!DOCTYPE html>
 <html lang="fr">
-
 <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
-    <link rel="Stylesheet" href="Assets/CSS/css_Jarditou.css">
+    <link rel="stylesheet" href="Assets/CSS/css_Jarditou.css">
 </head>
 
 <body>
@@ -18,20 +19,22 @@
 
     <nav>
         <ul>
-            <li><a href="index.html" title="Accueil">Accueil</a></li>
-            <li><a href="tableau.html" title="tableau">Tableau</a></li>
-            <li><a href="contact.html" title="Contact">Contact</a></li>
-        </ul>
+            <li><a href="index.html" title="acceuil">Accueil</a><br></li>
+            <li><a href="tableau.html" title="tableau">Tableau</a><br></li>
+            <li><a href="contact.html" title="contact">Contact</a><br></li>
+        </ul> 
+    
 
-        <img src="Assets/img.jpg/a.jpg" alt="Jarditoupromotion">
+        <img src="Assets/img.jpg/a.jpg" alt="promotion">
 
-        <p>* Ces zones sont obligatoires</p>
+    
 
     </nav>
 
 
 
     <main>
+        <p>* Ces zones sont obligatoires</p>
         <form action="http://bienvu.net/script.php" method="get" enctype="multipart/form-data">
             <fieldset>
                 <legend>Vos coordonnées</legend>
@@ -41,11 +44,11 @@
                 <label for="sexe">Sexe* :</label><input type="radio" name="sexe" value="Féminin" id="sexe">Féminin
                 <input type="radio" name="sexe" value="Masculin">Masculin<br>
                 <br>
-                <label for="Datedenaissance">Date de naissance* :</label><input type="date" name="ddn" id="Datedenaissance"><br>
-                <label for="Codepostal">Code postal* :</label><input type="number" name="Codepostal" id="Codepostal" required title="Entrez votre code postal"><br>
-                <label for="Adresse">Adresse :</label><input type="text" name="adresse" id="Adresse"><br>
-                <label for="ville">Ville :</label><input type="text" name="Ville" id="ville"><br>
-                <label for="email">Email* :</label><input type="email" name="email" id="email" placeholder="exemple@mail.com" pattern="^[a-z]+$" required title="exemple@mail.com"><br>
+                <label for="ddn">Date de naissance* :</label><input type="date" name="ddn" id="ddn"><br>
+                <label for="cp">Code postal* :</label><input type="number" name="cp" id="cp" required title="Entrez votre code postal"><br>
+                <label for="adresse">Adresse :</label><input type="text" name="adresse" id="adresse"><br>
+                <label for="ville">Ville :</label><input type="text" name="ville" id="ville"><br>
+                <label for="email">Email* :</label><input type="email" name="email" id="email" placeholder="exemple@mail.com" required title="exemple@mail.com"><br>
             </fieldset>
         
             <fieldset>
@@ -53,13 +56,13 @@
                 <label for="sujet">Sujet*</label>
                 <select id="sujet" size="1" required title="Veuillez séléctionner un sujet.">
                     <option value="">Veuillez séléctionner un sujet</option>
-                    <option value="Mescommandes">Mes commandes</option>
-                    <option value="Questionsurunproduit">Question sur un produit</option>
-                    <option value="Reclamation">Réclamation</option>
-                    <option value="Autres">Autres</option>
+                    <option value="mes_commandes">Mes commandes</option>
+                    <option value="question_sur_un_produit">Question sur un produit</option>
+                    <option value="reclamation">Réclamation</option>
+                    <option value="autres">Autres</option>
                 </select>
                 <br>
-                <label for="Votredemande">Votre demande* :</label><textarea name="Votredemande" id="Votredemande" cols="20" rows="2"></textarea>
+                <label for="votre_demande">Votre demande* :</label><textarea name="votre_demande" id="votre_demande" cols="20" rows="2"></textarea>
             </fieldset>
         
             <br>

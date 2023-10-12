@@ -1,0 +1,139 @@
+
+/***********************************************************INDEX*********************************************************************/
+nav ul
+{font-size: 1.3rem;
+background-color: black;
+margin-bottom: 0rem;}
+nav ul li
+{list-style-type: none;
+display: inline-block;
+padding: 1rem;}
+nav ul li a
+{color: white;
+text-decoration: none;}
+nav ul li:hover a{
+background-color: lightgrey;
+color: black;
+transition: 0.3s all;}
+
+nav img
+{width: 100%;}
+
+h1.accueil
+{font-size: 2rem;}
+
+h2.entreprise
+{font-size: 1.4rem;}
+h2.qualité
+{font-size: 1.4rem;}
+h2.devis_gratuit
+{font-size: 1.4rem;}
+
+p.p0
+{display: flex;
+justify-content: end;
+margin-right: 3rem;}
+p.p1
+{line-height: 3rem;}
+p.p2
+{line-height: 3rem;}
+p.p3
+{line-height: 3rem;}
+
+
+
+
+div
+{display: flex;}
+aside
+{background-color: gray;
+width: 20%;
+padding-right: 1rem;
+margin-left: 15rem;}
+
+
+hr
+{color: lightgray;}
+
+
+footer ul
+{font-size: 1.3rem;
+background-color: black;}
+footer ul li
+{list-style-type: none;
+display: inline-block;
+padding: 1rem;}
+footer ul li a
+{color: white;
+text-decoration: none;}
+footer ul li:hover a
+{background-color: lightgray;
+color: black;
+transition: 0.3s all;}
+
+
+/***********************************************************Tableau*********************************************************************/
+body
+{margin: 0.5rem;}
+.BKSEPT
+{width: 15rem;}
+
+table
+{border-collapse: collapse;
+table-layout: fixed;}
+tbody td
+{border: solid ; color:black;
+border-collapse: collapse;
+text-align: center;}
+
+thead th:nth-child(1)
+{width: 30%}
+thead th:nth-child(2)
+{width: 6%;}
+thead th:nth-child(3)
+{width: 10%}
+thead th:nth-child(4)
+{width: 10%}
+thead th:nth-child(5)
+{width: 10%}
+thead th:nth-child(6)
+{width: 10%}
+
+/******************************************************************responsive**************************************/
+
+@media screen and (max-width:768px){
+
+
+    
+
+
+body
+{max-width: 768px;
+font-size: medium;}
+
+nav ul
+{display: flex;
+flex-direction: column;
+margin-top: 0rem;
+padding-left: 0rem;}
+
+nav
+{display: flex;
+gap: 0rem;
+padding-left: 0rem;}
+
+nav img
+{width: 100%;}
+
+footer ul
+{display: flex;
+flex-direction: column;
+text-align: center;}
+
+aside
+{display: none;}
+
+header img
+{width: 100%;}
+
+}
